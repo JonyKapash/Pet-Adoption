@@ -1,0 +1,72 @@
+/* Admin Page */
+
+.form-container {
+	margin: 60px 240px;
+	padding: 23px 20px;
+	box-shadow: 20px 19px 50px 0px #0f513200, 0 6px 20px 0 rgb(0 0 0 / 7%);
+	border-radius: 10px;
+}
+
+.admin-header {
+	text-align: center;
+	margin: 40px 0 -25px 0;
+}
+
+/* Search Page */
+
+.search-card-container {
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.search-card {
+	min-height: 380px;
+}
+
+.search-form {
+	width: 560px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.form-select.form-select {
+	border: none;
+	border-bottom: 1px solid;
+	border-radius: 0;
+	color: #a3a3a3;
+}
+
+.form-select.form-select:hover {
+	color: #157347;
+}
+
+.form-label.form-label {
+	margin: 1rem 0;
+}
+
+.btn-success.btn-success {
+	margin-top: 20px;
+}
+
+/* My Pets Page */
+
+.pillFilled {
+	cursor: pointer;
+	border-radius: 50rem;
+	color: #fff;
+	background-color: #198754;
+	padding: 0.5rem;
+	margin: 1rem;
+	border: 1px solid #198754;
+}
+
+.pillEmpty {
+	cursor: pointer;
+	border-radius: 50rem;
+	color: #6c757d;
+	padding: 0.5rem;
+	margin: 1rem;
+	border: 1px solid #fff;
+}
